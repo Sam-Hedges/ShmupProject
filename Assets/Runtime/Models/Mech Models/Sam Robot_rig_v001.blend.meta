@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 78eb029978abd274297dbfd4deb4e499
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Sam Robot_rig_v001(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_all
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_transform
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_circle
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_double_arrow_thick
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_arrow_thick
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_cog
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_arrow_thin
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WGT_head
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: outerwing
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 3.5711305, y: 7.6707296, z: -1.9194213}
+      rotation: {x: -0.25881907, y: 0.9659258, z: -0.000000035929013, w: 0.00000021120287}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Cube
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.1007601, y: 0.93916947, z: -1.830753}
+      rotation: {x: -0.6089517, y: -0.19881888, z: 0.75786364, w: 0.12365976}
+      scale: {x: -0.01, y: -0.01, z: -0.009999996}
+    - name: Cube_1
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.2671554, y: 0.85470504, z: -0.99955344}
+      rotation: {x: -0.14300217, y: 0.75445306, z: -0.021445254, w: 0.6402274}
+      scale: {x: 0.010000001, y: 0.01, z: 0.009999996}
+    - name: leg_1
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.8365572, y: 4.412859, z: -0.3427121}
+      rotation: {x: 0.76782334, y: 0.009820097, z: 0.63422483, w: -0.0900548}
+      scale: {x: 0.010000002, y: 0.01, z: 0.009999999}
+    - name: hip_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.64320207, y: 5.273909, z: -0.6671141}
+      rotation: {x: 0.5826414, y: 0.6053965, z: 0.29179686, w: -0.4570324}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: body
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.00000018222336, y: 7.3519955, z: -0.46794203}
+      rotation: {x: -0.00000020054631, y: -0.08715583, z: 0.9961947, w: 0.000000058240744}
+      scale: {x: -0.01, y: -0.010000001, z: -0.010000001}
+    - name: tailjet
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.975194, y: 6.0815973, z: -1.4986291}
+      rotation: {x: 0.07547921, y: 0.86273, z: -0.49809718, w: 0.043577887}
+      scale: {x: 0.009999997, y: 0.009999997, z: 0.009999997}
+    - name: miniwing
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.4582028, y: 5.6471214, z: -1.7374209}
+      rotation: {x: 0.24999982, y: 0.4330127, z: 0.75000006, w: -0.43301272}
+      scale: {x: -0.009999995, y: -0.009999998, z: -0.009999997}
+    - name: engine_3
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.9751943, y: 4.988115, z: -2.1299527}
+      rotation: {x: 0.9622502, y: -0.022557542, z: 0.08418611, w: -0.25783423}
+      scale: {x: -0.009999998, y: -0.009999999, z: -0.009999998}
+    - name: engine_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.9751943, y: 4.988115, z: -2.1299527}
+      rotation: {x: 0.40821767, y: -0.23456989, z: 0.8754262, w: -0.10938167}
+      scale: {x: -0.01, y: -0.01, z: -0.009999999}
+    - name: engine_1
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.9751943, y: 4.988115, z: -2.1299527}
+      rotation: {x: -0.5540322, y: -0.21201225, z: 0.79124016, w: 0.14845252}
+      scale: {x: -0.009999997, y: -0.009999999, z: -0.009999999}
+    - name: hinge
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.84246755, y: 5.598612, z: -1.385288}
+      rotation: {x: 0.7071069, y: -0.70710665, z: 0.00000013767875, w: -0.0000001376788}
+      scale: {x: -0.009999999, y: -0.01, z: -0.009999999}
+    - name: tail
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.06627479, y: 7.6718035, z: -0.65614074}
+      rotation: {x: 0.00000014748574, y: 0.819152, z: -0.5735765, w: 0.00000013442296}
+      scale: {x: 0.01, y: 0.009999998, z: 0.009999998}
+    - name: lid
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.7444706, y: 7.5518203, z: 0.85063666}
+      rotation: {x: -0.00000019470718, y: 0.000000037748947, z: 1, w: 0.00000007549791}
+      scale: {x: -0.01, y: -0.01, z: -0.01}
+    - name: mainframe
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.7444712, y: 7.6718035, z: -0.8453343}
+      rotation: {x: -0.00000019470718, y: 0.000000037748947, z: 1, w: 0.00000007549791}
+      scale: {x: -0.01, y: -0.01, z: -0.01}
+    - name: miniwing_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.150388, y: 8.103248, z: -1.67997}
+      rotation: {x: 0.5, y: 0.8660254, z: 0.00000013272488, w: 0.0000001638062}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: limb
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.8828328, y: 6.7333755, z: 0.3185162}
+      rotation: {x: 0.26313534, y: -0.15173212, z: 0.048054136, w: 0.9515398}
+      scale: {x: -0.009999998, y: -0.009999998, z: -0.009999999}
+    - name: "h\xE5nd"
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.6518822, y: 3.3446524, z: 1.1418097}
+      rotation: {x: -0.23456386, y: -0.39556536, z: 0.84522253, w: -0.27222556}
+      scale: {x: -0.009999999, y: -0.01, z: -0.009999999}
+    - name: "h\xE5ndledd"
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.6861434, y: 3.618525, z: 1.0281241}
+      rotation: {x: 0.6792295, y: -0.57197464, z: -0.2108234, w: -0.40871233}
+      scale: {x: -0.009999999, y: -0.009999999, z: -0.01}
+    - name: underarm
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.0046022, y: 5.7350245, z: -0.012710974}
+      rotation: {x: -0.1327862, y: -0.5135208, z: 0.84318715, w: -0.08774773}
+      scale: {x: 0.009999999, y: 0.01, z: 0.009999998}
+    - name: overarm
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.8750622, y: 6.682874, z: 0.34386995}
+      rotation: {x: 0.07331152, y: 0.8589051, z: -0.48677543, w: 0.14127024}
+      scale: {x: 0.009999999, y: 0.009999998, z: 0.009999997}
+    - name: smallarm_shoulder
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.7444708, y: 7.469611, z: 0.34776673}
+      rotation: {x: -0.06704485, y: 0.502407, z: 0.8602274, w: -0.055687837}
+      scale: {x: -0.009999999, y: -0.009999999, z: -0.009999997}
+    - name: limb_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.8009739, y: 7.2346945, z: -1.175583}
+      rotation: {x: -0.18079352, y: 0.97754496, z: 0.06786218, w: -0.08434632}
+      scale: {x: -0.009999999, y: -0.009999999, z: -0.009999998}
+    - name: underarm_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.1063676, y: 6.277351, z: -1.6619238}
+      rotation: {x: -0.09509531, y: 0.7452013, z: 0.63629746, w: -0.17537838}
+      scale: {x: -0.01, y: -0.009999997, z: -0.009999999}
+    - name: miniwing_3
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.8017435, y: 5.386152, z: -1.8261975}
+      rotation: {x: -0.40615875, y: -0.6319836, z: -0.3747008, w: 0.5433518}
+      scale: {x: 0.009999995, y: 0.009999999, z: 0.009999998}
+    - name: engine_3_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.6022453, y: 4.9611325, z: -1.832219}
+      rotation: {x: 0.9768671, y: 0.19125381, z: -0.056768693, w: 0.077006616}
+      scale: {x: -0.01, y: -0.009999999, z: -0.009999997}
+    - name: engine_2_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.6022453, y: 4.9611325, z: -1.832219}
+      rotation: {x: 0.5375966, y: 0.16231655, z: 0.81760746, w: -0.12712723}
+      scale: {x: -0.009999996, y: -0.009999998, z: -0.009999998}
+    - name: engine_1_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 2.6022453, y: 4.9611325, z: -1.832219}
+      rotation: {x: -0.43927035, y: -0.028937235, z: 0.87437606, w: -0.20413399}
+      scale: {x: -0.009999998, y: -0.009999999, z: -0.009999998}
+    - name: overarm_2
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.8060832, y: 7.22087, z: -1.1780205}
+      rotation: {x: 0.7392147, y: 0.18748221, z: 0.06819836, w: 0.6432426}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: bigarm_shoulder
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 1.7444714, y: 7.4179, z: -1.3206037}
+      rotation: {x: -0.13302235, y: 0.6330224, z: 0.75440633, w: -0.111618795}
+      scale: {x: -0.009999999, y: -0.009999999, z: -0.01}
+    - name: wingframe
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: 0.00000027737966, y: 7.6718035, z: -0.7122996}
+      rotation: {x: -1.740323e-14, y: 1, z: 0.000000037748947, w: 0.00000019470718}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Armature
+      parentName: Sam Robot_rig_v001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Empty
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008940697, y: -1.4823077e-21, z: 2.4691637e-15, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Plane
+      parentName: root
+      position: {x: 0.00000009685755, y: 0.64810693, z: 10.511224}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Text
+      parentName: root
+      position: {x: 0.45699412, y: 0.6481069, z: 10.728565}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.33301136, y: 0.33301136, z: 0.33301136}
+    - name: body
+      parentName: root
+      position: {x: 0.17273974, y: 0.7129739, z: 5.477169}
+      rotation: {x: 0.7379647, y: -1.0686828e-15, z: -0.00000003130899, w: 0.6748394}
+      scale: {x: 1, y: 0.9999985, z: 0.9999985}
+    - name: hip_2.R
+      parentName: body
+      position: {x: 0.64320225, y: -0.06741407, z: -0.01304654}
+      rotation: {x: 0.6989659, y: 0.25711867, z: 0.65870315, w: 0.106989585}
+      scale: {x: 1.0000032, y: 1.0000058, z: 1.0000043}
+    - name: leg_1.R
+      parentName: hip_2.R
+      position: {x: -0.068425335, y: 0.9376619, z: -0.011796009}
+      rotation: {x: 0.338774, y: -0.93759245, z: 0.05606394, w: 0.054857984}
+      scale: {x: 1.0000039, y: 1.0000064, z: 1.0000025}
+    - name: Cube.R
+      parentName: leg_1.R
+      position: {x: 0.5230256, y: 3.75021, z: 0.11380114}
+      rotation: {x: 0.08097669, y: 0.62404996, z: -0.06525222, w: 0.77443314}
+      scale: {x: 1.0000001, y: 1.0000215, z: 1.000005}
+    - name: Cube.R_end
+      parentName: Cube.R
+      position: {x: -0, y: 0.9530752, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_1.R
+      parentName: leg_1.R
+      position: {x: -0.30116117, y: 3.6307464, z: -0.06552749}
+      rotation: {x: -0.15212084, y: 0.75542474, z: -0.18877825, w: -0.60873276}
+      scale: {x: 1.0000123, y: 0.99999875, z: 1.0000185}
+    - name: Cube_1.R_end
+      parentName: Cube_1.R
+      position: {x: -0, y: 0.9530752, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hinge.R
+      parentName: body
+      position: {x: 0.84246737, y: 0.1919451, z: -0.75731725}
+      rotation: {x: -0.73796463, y: -0.00000012803238, z: -0.000000085771475, w: 0.67483944}
+      scale: {x: 1, y: 0.9999985, z: 0.99999845}
+    - name: engine_3.R
+      parentName: hinge.R
+      position: {x: 0.1327265, y: 0.74466425, z: -0.6104974}
+      rotation: {x: 0.44467145, y: -0.07268791, z: 0.048090782, w: -0.89144325}
+      scale: {x: 1.0000023, y: 1.0000026, z: 1.0000029}
+    - name: engine_3.R_end
+      parentName: engine_3.R
+      position: {x: -0, y: 1.7473027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_1.R
+      parentName: hinge.R
+      position: {x: 0.1327265, y: 0.7446645, z: -0.6104974}
+      rotation: {x: -0.25602734, y: -0.6831666, z: 0.45198873, w: 0.51326376}
+      scale: {x: 1.0000045, y: 1.0000082, z: 1.0000014}
+    - name: engine_1.R_end
+      parentName: engine_1.R
+      position: {x: -0, y: 1.7473031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_2.R
+      parentName: hinge.R
+      position: {x: 0.13272639, y: 0.7446645, z: -0.6104974}
+      rotation: {x: 0.18864429, y: -0.75585365, z: 0.5000791, w: -0.3781792}
+      scale: {x: 1.0000064, y: 1.0000097, z: 1}
+    - name: engine_2.R_end
+      parentName: engine_2.R
+      position: {x: -0, y: 1.7473034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: miniwing.R
+      parentName: hinge.R
+      position: {x: 0.6157353, y: 0.35213298, z: 0.04850964}
+      rotation: {x: 0.08892434, y: 0.60343933, z: 0.26998237, w: -0.7450255}
+      scale: {x: 1.0000021, y: 1.000001, z: 1.0000054}
+    - name: miniwing.R_end
+      parentName: miniwing.R
+      position: {x: -0, y: 1.0472533, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail.R
+      parentName: body
+      position: {x: 0.06627456, y: 2.3219051, z: -0.21597011}
+      rotation: {x: 0.9909655, y: -0.009971139, z: -0.009118032, w: -0.13343501}
+      scale: {x: 1.0000036, y: 1.0000055, z: 1.0000005}
+    - name: tail.R_end
+      parentName: tail.R
+      position: {x: -0, y: 2.9859352, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail.L
+      parentName: body
+      position: {x: -0.066274546, y: 2.3219044, z: -0.21597058}
+      rotation: {x: 0.9909655, y: 0.009971291, z: 0.009117895, w: -0.13343494}
+      scale: {x: 1.0000036, y: 1.0000004, z: 1.0000018}
+    - name: tail.L_end
+      parentName: tail.L
+      position: {x: -0, y: 2.9859357, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beak
+      parentName: body
+      position: {x: -0.00000026673752, y: 2.3961513, z: 0.6132266}
+      rotation: {x: 0.7989308, y: -0.00000058899815, z: -0.0000005725109, w: 0.601423}
+      scale: {x: 1, y: 1.0000018, z: 1.0000018}
+    - name: beak
+      parentName: beak
+      position: {x: -0, y: -0.00000023841858, z: 0.00000031199306}
+      rotation: {x: -0.00000077113816, y: 0.79216427, z: -0.61030793, w: -0.00000055459606}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: beak_end
+      parentName: beak
+      position: {x: -0, y: 1.8564365, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wingframe.R
+      parentName: body
+      position: {x: 0.000000038436443, y: 2.3168964, z: -0.27190554}
+      rotation: {x: -0.6059204, y: -0.42125088, z: -0.38521713, w: 0.55409026}
+      scale: {x: 1.0000035, y: 1.000004, z: 1.0000032}
+    - name: outerwing.R
+      parentName: wingframe.R
+      position: {x: 0.1123333, y: 3.7679565, z: -0.0010730654}
+      rotation: {x: -0.24943992, y: -0.028500091, z: 0.47563863, w: -0.8430512}
+      scale: {x: 1.0000149, y: 0.99999815, z: 1.0000052}
+    - name: outerwing.R_end
+      parentName: outerwing.R
+      position: {x: -0, y: 3.4613883, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mainframe.R
+      parentName: wingframe.R
+      position: {x: 0.4829145, y: 1.6815675, z: -0.00000008587336}
+      rotation: {x: -0.44529378, y: -0.22478086, z: 0.8643437, w: -0.06400787}
+      scale: {x: 1.0000029, y: 1.0000091, z: 1.0000072}
+    - name: miniwing_2.R
+      parentName: mainframe.R
+      position: {x: -0.40591592, y: -0.7404135, z: 0.5784025}
+      rotation: {x: 0.16804405, y: -0.47965783, z: -0.7524349, w: 0.41896453}
+      scale: {x: 0.9999973, y: 1.0000007, z: 1.0000063}
+    - name: miniwing_2.R_end
+      parentName: miniwing_2.R
+      position: {x: -0, y: 1.2372856, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bigarm_shoulder.R
+      parentName: mainframe.R
+      position: {x: 0.00000025621063, y: -0.51403695, z: -0.16159733}
+      rotation: {x: -0.3985188, y: -0.4256418, z: 0.47519252, w: 0.65894145}
+      scale: {x: 1.0000033, y: 1.0000099, z: 1.0000069}
+    - name: limb_2.R
+      parentName: bigarm_shoulder.R
+      position: {x: 0.056672692, y: 0.2336151, z: 0.00000021606684}
+      rotation: {x: 0.22608274, y: 0.066866964, z: -0.9319041, w: 0.2756272}
+      scale: {x: 1.000009, y: 1.000007, z: 1.0000094}
+    - name: limb_2.R_end
+      parentName: limb_2.R
+      position: {x: -0, y: 0.048392866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: overarm_2.R
+      parentName: bigarm_shoulder.R
+      position: {x: 0.04854706, y: 0.24615055, z: 0.000000052154064}
+      rotation: {x: -0.01944044, y: -0.11426975, z: 0.464418, w: 0.87799793}
+      scale: {x: 1.0000021, y: 1.0000148, z: 1.0000057}
+    - name: underarm_2.R
+      parentName: overarm_2.R
+      position: {x: -0.021000147, y: 1.1018722, z: 0.00000064074993}
+      rotation: {x: 0.001214058, y: 0.007340475, z: -0.16306517, w: 0.9865873}
+      scale: {x: 1.0000192, y: 0.9999953, z: 1.0000052}
+    - name: miniwing_3.R
+      parentName: underarm_2.R
+      position: {x: -0.00017917156, y: 1.0911419, z: 0.33790335}
+      rotation: {x: -0.0031682507, y: -0.04389799, z: -0.04191309, w: -0.9981514}
+      scale: {x: 0.9999872, y: 1.0000232, z: 1.0000056}
+    - name: miniwing_3.R_end
+      parentName: miniwing_3.R
+      position: {x: -0, y: 1.5208461, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_3_2.R
+      parentName: underarm_2.R
+      position: {x: -0.01258713, y: 1.4167458, z: -0.00018839538}
+      rotation: {x: -0.042581573, y: -0.7110361, z: -0.04321911, w: 0.7005331}
+      scale: {x: 1.0000023, y: 1.0000204, z: 1.0000074}
+    - name: engine_3_2.R_end
+      parentName: engine_3_2.R
+      position: {x: -0, y: 1.747303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_2_2.R
+      parentName: underarm_2.R
+      position: {x: -0.012587607, y: 1.4167446, z: -0.0001873672}
+      rotation: {x: 0.040957775, y: 0.21286456, z: -0.062530816, w: 0.97421825}
+      scale: {x: 0.9999985, y: 1.0000247, z: 0.99999994}
+    - name: engine_2_2.R_end
+      parentName: engine_2_2.R
+      position: {x: -0, y: 1.747303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_1_2.R
+      parentName: underarm_2.R
+      position: {x: -0.012587428, y: 1.4167455, z: -0.00018762052}
+      rotation: {x: 0.061793312, y: 0.96300673, z: -0.042062066, w: 0.2589021}
+      scale: {x: 1.0000006, y: 1.0000235, z: 1}
+    - name: engine_1_2.R_end
+      parentName: engine_1_2.R
+      position: {x: -0, y: 1.7473031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.R
+      parentName: mainframe.R
+      position: {x: -0.00000055827115, y: 1.6445007, z: -0.43166354}
+      rotation: {x: -0.00000064820046, y: 0.14355607, z: -0.9896422, w: -0.00000006705522}
+      scale: {x: 1.0000008, y: 1.0000068, z: 1.0000046}
+    - name: smallarm_shoulder.R
+      parentName: lid.R
+      position: {x: 0.00000007175654, y: 0.4849244, z: 0.1564753}
+      rotation: {x: 0.30446652, y: -0.59014636, z: 0.42518964, w: -0.6150133}
+      scale: {x: 0.9999985, y: 1.0000111, z: 1.0000038}
+    - name: overarm.R
+      parentName: smallarm_shoulder.R
+      position: {x: -0.0015887544, y: 0.7975092, z: -0.0000008735806}
+      rotation: {x: -0.049331564, y: 0.14084491, z: 0.16621725, w: 0.9747312}
+      scale: {x: 1.0000206, y: 1, z: 1.0000054}
+    - name: underarm.R
+      parentName: overarm.R
+      position: {x: -0.0072464943, y: 1.0209298, z: -0.0000009965152}
+      rotation: {x: -0.0000002458691, y: 0.00000013411042, z: -0.34867185, w: 0.9372449}
+      scale: {x: 1.0000176, y: 0.99999124, z: 1.0000043}
+    - name: "h\xE5ndledd.R"
+      parentName: underarm.R
+      position: {x: 0.32274055, y: 2.3579998, z: -0.0000011473894}
+      rotation: {x: -0.0000005225012, y: -0.0000001043904, z: -0.15465567, w: 0.9879685}
+      scale: {x: 1.0000356, y: 0.9999773, z: 1.0000017}
+    - name: "h\xE5nd.R"
+      parentName: "h\xE5ndledd.R"
+      position: {x: -0.07109249, y: 0.28991434, z: 0.00000090152025}
+      rotation: {x: -0.008009354, y: 0.22400859, z: -0.03482478, w: 0.97393185}
+      scale: {x: 1.0000223, y: 0.9999936, z: 0.9999985}
+    - name: "h\xE5nd.R_end"
+      parentName: "h\xE5nd.R"
+      position: {x: -0, y: 0.78367025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: limb.R
+      parentName: smallarm_shoulder.R
+      position: {x: -0.027984, y: 0.7490342, z: 0.014386315}
+      rotation: {x: -0.58804154, y: -0.1519705, z: -0.76915574, w: 0.19877554}
+      scale: {x: 1.000004, y: 0.99998754, z: 1.0000185}
+    - name: limb.R_end
+      parentName: limb.R
+      position: {x: -0, y: 0.074219406, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wingframe.L
+      parentName: body
+      position: {x: -0.000000468203, y: 2.316896, z: -0.27190554}
+      rotation: {x: -0.60592043, y: 0.4212508, z: 0.38521713, w: 0.55409026}
+      scale: {x: 1.0000011, y: 1.0000044, z: 1.0000025}
+    - name: outerwing.L
+      parentName: wingframe.L
+      position: {x: -0.11233378, y: 3.767956, z: -0.0010739671}
+      rotation: {x: 0.24944016, y: -0.028499987, z: 0.47563872, w: 0.8430511}
+      scale: {x: 1.0000132, y: 0.9999971, z: 1.0000038}
+    - name: outerwing.L_end
+      parentName: outerwing.L
+      position: {x: -0, y: 3.4613883, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mainframe.L
+      parentName: wingframe.L
+      position: {x: -0.48291427, y: 1.681568, z: 0.00000041737434}
+      rotation: {x: 0.17041406, y: -0.02841125, z: 0.31692144, w: 0.93258387}
+      scale: {x: 1.0000021, y: 1.000009, z: 1.0000067}
+    - name: miniwing_2.L
+      parentName: mainframe.L
+      position: {x: 0.40591502, y: -0.7404125, z: 0.57840246}
+      rotation: {x: -0.16804408, y: -0.47965783, z: -0.75243497, w: -0.41896445}
+      scale: {x: 0.9999863, y: 1.0000044, z: 1.000011}
+    - name: miniwing_2.L_end
+      parentName: miniwing_2.L
+      position: {x: -0, y: 1.2372856, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bigarm_shoulder.L
+      parentName: mainframe.L
+      position: {x: 0.00000018463504, y: -0.5140372, z: -0.16159765}
+      rotation: {x: -0.39851874, y: 0.42564195, z: -0.47519234, w: 0.6589417}
+      scale: {x: 0.9999972, y: 1.0000101, z: 1.0000062}
+    - name: limb_2.L
+      parentName: bigarm_shoulder.L
+      position: {x: -0.05667302, y: 0.2336151, z: 0.000000059604645}
+      rotation: {x: -0.22608262, y: 0.06686715, z: -0.9319039, w: -0.27562758}
+      scale: {x: 1.0000205, y: 0.99999934, z: 0.999999}
+    - name: limb_2.L_end
+      parentName: limb_2.L
+      position: {x: -0, y: 0.048392866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: overarm_2.L
+      parentName: bigarm_shoulder.L
+      position: {x: -0.048547238, y: 0.24615094, z: -0.0000005736947}
+      rotation: {x: -0.0151557755, y: -0.100182414, z: 0.4101955, w: -0.90635175}
+      scale: {x: 1.0000107, y: 1.0000037, z: 1.0000004}
+    - name: underarm_2.L
+      parentName: overarm_2.L
+      position: {x: 0.021000326, y: 1.1018714, z: 0.0000011473894}
+      rotation: {x: 0.0012138, y: -0.007340638, z: 0.16306512, w: 0.9865872}
+      scale: {x: 1.0000412, y: 0.99997455, z: 1.0000062}
+    - name: miniwing_3.L
+      parentName: underarm_2.L
+      position: {x: 0.00017881393, y: 1.0911415, z: 0.33790356}
+      rotation: {x: -0.076167405, y: 0.02439774, z: 0.8363107, w: -0.5423907}
+      scale: {x: 1.0000535, y: 0.9999576, z: 1.0000077}
+    - name: miniwing_3.L_end
+      parentName: miniwing_3.L
+      position: {x: -0, y: 1.5208461, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_3_2.L
+      parentName: underarm_2.L
+      position: {x: 0.012587041, y: 1.4167453, z: -0.00018754601}
+      rotation: {x: -0.042581435, y: 0.7110362, z: 0.043219205, w: 0.7005331}
+      scale: {x: 1.0000021, y: 1.000001, z: 1.0000297}
+    - name: engine_3_2.L_end
+      parentName: engine_3_2.L
+      position: {x: -0, y: 1.747303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_2_2.L
+      parentName: underarm_2.L
+      position: {x: 0.012587339, y: 1.4167455, z: -0.00018702447}
+      rotation: {x: -0.086316325, y: 0.21083058, z: -0.1348055, w: -0.96432745}
+      scale: {x: 1.0000349, y: 0.99997306, z: 1.0000136}
+    - name: engine_2_2.L_end
+      parentName: engine_2_2.L
+      position: {x: -0, y: 1.747303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_1_2.L
+      parentName: underarm_2.L
+      position: {x: 0.012586653, y: 1.4167454, z: -0.0001873523}
+      rotation: {x: -0.1332511, y: 0.95322376, z: -0.088697575, w: -0.25640067}
+      scale: {x: 1.0000248, y: 0.9999704, z: 1.0000212}
+    - name: engine_1_2.L_end
+      parentName: engine_1_2.L
+      position: {x: -0, y: 1.7473031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.L
+      parentName: mainframe.L
+      position: {x: 0.00000059444966, y: 1.6445, z: -0.4316633}
+      rotation: {x: 0.00000061094744, y: 0.14355572, z: -0.9896422, w: 0.00000008102504}
+      scale: {x: 1.0000007, y: 1.0000021, z: 1.0000021}
+    - name: smallarm_shoulder.L
+      parentName: lid.L
+      position: {x: -0.00000018826361, y: 0.48492524, z: 0.15647453}
+      rotation: {x: -0.47457573, y: -0.19891556, z: 0.80958927, w: 0.28244612}
+      scale: {x: 1.0000029, y: 1.0000155, z: 1.0000091}
+    - name: overarm.L
+      parentName: smallarm_shoulder.L
+      position: {x: 0.0015887395, y: 0.79751104, z: -0.00000089686364}
+      rotation: {x: -0.0063700965, y: -0.14344174, z: -0.021875693, w: 0.9893965}
+      scale: {x: 1.0000143, y: 0.999994, z: 1.000009}
+    - name: underarm.L
+      parentName: overarm.L
+      position: {x: 0.0072463453, y: 1.0209304, z: -0.0000006631017}
+      rotation: {x: -0.17520927, y: 0.06659908, z: 0.19218966, w: 0.963291}
+      scale: {x: 1.0000322, y: 0.99998313, z: 1.0000038}
+    - name: "h\xE5ndledd.L"
+      parentName: underarm.L
+      position: {x: -0.3227407, y: 2.3580067, z: -0.0000011324883}
+      rotation: {x: 0.00000043553342, y: 0.0000002544604, z: 0.15465535, w: 0.9879685}
+      scale: {x: 1.0000923, y: 0.9999271, z: 1.0000039}
+    - name: "h\xE5nd.L"
+      parentName: "h\xE5ndledd.L"
+      position: {x: 0.071092695, y: 0.2899149, z: 0.0000007599592}
+      rotation: {x: -0.0080095045, y: -0.22400859, z: 0.034824196, w: 0.97393185}
+      scale: {x: 1.0000068, y: 0.99998355, z: 1.000023}
+    - name: "h\xE5nd.L_end"
+      parentName: "h\xE5nd.L"
+      position: {x: -0, y: 0.78367025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: limb.L
+      parentName: smallarm_shoulder.L
+      position: {x: 0.027984124, y: 0.7490356, z: 0.014386474}
+      rotation: {x: 0.5880376, y: -0.15195619, z: -0.7691584, w: -0.19878767}
+      scale: {x: 0.9999991, y: 0.9999828, z: 1.0000254}
+    - name: limb.L_end
+      parentName: limb.L
+      position: {x: -0, y: 0.074219406, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hinge.L
+      parentName: body
+      position: {x: -0.8424678, y: 0.1919455, z: -0.75731725}
+      rotation: {x: -0.7379647, y: 0.000000096848126, z: 0.00000011987272, w: 0.6748394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: miniwing.L
+      parentName: hinge.L
+      position: {x: -0.6157352, y: 0.3521333, z: 0.048509106}
+      rotation: {x: -0.08892435, y: 0.6034392, z: 0.2699824, w: 0.74502563}
+      scale: {x: 1.0000024, y: 1.0000013, z: 1.0000058}
+    - name: miniwing.L_end
+      parentName: miniwing.L
+      position: {x: -0, y: 1.0472533, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_3.L
+      parentName: hinge.L
+      position: {x: -0.13272645, y: 0.7446648, z: -0.6104975}
+      rotation: {x: 0.4446714, y: 0.072687924, z: -0.0480908, w: -0.8914433}
+      scale: {x: 0.99999976, y: 1.0000067, z: 1.0000074}
+    - name: engine_3.L_end
+      parentName: engine_3.L
+      position: {x: -0, y: 1.7473027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_1.L
+      parentName: hinge.L
+      position: {x: -0.13272645, y: 0.744665, z: -0.6104975}
+      rotation: {x: 0.25602737, y: -0.6831666, z: 0.4519886, w: -0.51326376}
+      scale: {x: 1.0000063, y: 1.0000083, z: 1.0000026}
+    - name: engine_1.L_end
+      parentName: engine_1.L
+      position: {x: -0, y: 1.7473031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: engine_2.L
+      parentName: hinge.L
+      position: {x: -0.13272645, y: 0.7446648, z: -0.6104975}
+      rotation: {x: -0.18864411, y: -0.7558537, z: 0.50007904, w: 0.37817922}
+      scale: {x: 1.0000077, y: 1.000011, z: 1.0000001}
+    - name: engine_2.L_end
+      parentName: engine_2.L
+      position: {x: -0, y: 1.7473034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip_2.L
+      parentName: body
+      position: {x: -0.64320236, y: -0.06741414, z: -0.013046601}
+      rotation: {x: 0.6989658, y: -0.25711906, z: -0.6587033, w: 0.10698902}
+      scale: {x: 0.99999976, y: 1.0000015, z: 0.9999989}
+    - name: leg_1.L
+      parentName: hip_2.L
+      position: {x: 0.06842508, y: 0.9376617, z: -0.011795614}
+      rotation: {x: 0.3387737, y: 0.93759245, z: -0.056065723, w: 0.054857757}
+      scale: {x: 1.000007, y: 1.0000138, z: 1.0000024}
+    - name: Cube.L
+      parentName: leg_1.L
+      position: {x: -0.52302593, y: 3.7502127, z: 0.11380145}
+      rotation: {x: 0.08097647, y: -0.6240496, z: 0.0652526, w: 0.77443343}
+      scale: {x: 1.0000017, y: 1.0000129, z: 1.0000049}
+    - name: Cube.L_end
+      parentName: Cube.L
+      position: {x: -0, y: 0.9530752, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_1.L
+      parentName: leg_1.L
+      position: {x: 0.30116117, y: 3.630749, z: -0.06552745}
+      rotation: {x: 0.15212029, y: 0.7554246, z: -0.18877867, w: 0.6087328}
+      scale: {x: 1.0000151, y: 1.0000011, z: 1.000008}
+    - name: Cube_1.L_end
+      parentName: Cube_1.L
+      position: {x: -0, y: 0.9530752, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body.001
+      parentName: body
+      position: {x: -0.000000040767556, y: 2.0201554, z: 0.00000011122701}
+      rotation: {x: 1, y: 1.8751275e-14, z: -0.00000007549792, w: 0.000000029802322}
+      scale: {x: 1, y: 1.0000061, z: 1.0000061}
+    - name: body.001_end
+      parentName: body.001
+      position: {x: -0, y: 2.0201554, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: root
+      position: {x: 0.00000009685755, y: 0.64810693, z: 10.011224}
+      rotation: {x: 0.7071068, y: -2.2239973e-22, z: -1.5610111e-22, w: 0.7071068}
+      scale: {x: 1, y: 0.99999964, z: 0.99999964}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
